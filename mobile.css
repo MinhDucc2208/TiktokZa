@@ -1,0 +1,167 @@
+@media (max-width: 1024px) {
+.sidebar {
+transform: translateX(-100%);
+}
+
+.sidebar.open {
+transform: translateX(0);
+}
+
+.main-content {
+margin-left: 0;
+padding: 20px;
+}
+
+.mobile-toggle {
+display: flex;
+}
+
+.stats-holo {
+grid-template-columns: repeat(2, 1fr);
+}
+
+.engagement-dashboard,
+.perf-container {
+grid-template-columns: 1fr;
+}
+
+.breakdown-grid {
+grid-template-columns: 1fr;
+}
+}
+
+@media (max-width: 768px) {
+.header-premium {
+flex-direction: column;
+gap: 20px;
+text-align: center;
+padding: 20px;
+}
+
+.header-title h1 {
+font-size: 24px;
+}
+
+.stats-holo {
+grid-template-columns: 1fr;
+}
+
+.prism-grid {
+grid-template-columns: 1fr;
+}
+
+.empty-features {
+grid-template-columns: repeat(2, 1fr);
+}
+
+.prediction-grid,
+.tips-grid,
+.guide-grid {
+grid-template-columns: 1fr;
+}
+
+.best-time-grid {
+grid-template-columns: 1fr;
+}
+
+.history-card {
+flex-direction: column;
+text-align: center;
+}
+
+.history-card-stats {
+width: 100%;
+justify-content: center;
+}
+
+.history-card-actions {
+flex-direction: row;
+width: 100%;
+justify-content: center;
+}
+
+.compare-current .info-grid,
+.seo-header-grid {
+grid-template-columns: 1fr;
+}
+
+.suggestion-sets {
+grid-template-columns: 1fr;
+}
+
+.download-options {
+grid-template-columns: 1fr;
+}
+
+.input-cinematic {
+padding: 24px;
+}
+}
+
+@media (max-width: 480px) {
+.brand-orb {
+width: 60px;
+height: 60px;
+font-size: 24px;
+}
+
+.brand-title {
+font-size: 20px;
+}
+
+.menu-item {
+padding: 12px 14px;
+}
+
+.stat-holo-value {
+font-size: 28px;
+}
+
+.score-display-main {
+width: 200px;
+height: 200px;
+}
+
+.score-value-main {
+font-size: 40px;
+}
+
+.meter-value {
+font-size: 48px;
+}
+
+.perf-number {
+font-size: 56px;
+}
+
+.eng-circle-container {
+width: 240px;
+height: 240px;
+}
+
+.eng-value {
+font-size: 36px;
+}
+
+.empty-features {
+grid-template-columns: 1fr;
+}
+
+.empty-orbit {
+width: 100px;
+height: 100px;
+font-size: 40px;
+}
+}
+
+.touch-device .menu-item:hover {
+transform: none;
+}
+
+.touch-device .stat-holo-card:hover {
+transform: translateY(-4px);
+}
+
+.touch-device .history-card:hover {
+transform: translateX(4px);
+}
